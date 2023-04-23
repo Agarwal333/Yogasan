@@ -1,0 +1,81 @@
+
+
+/* Login form styling */
+.LoginFormMain{
+    background-image: url("/public/Background.png");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.LoginFormContainer{
+    width: 300px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 100px;
+    background: rgba( 255, 255, 255, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.Logiin{
+    font-size: 30px;
+    color: #B80525;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    width: 300px;
+    padding: 0.5rem 20px;
+    font-size: 1rem;
+    border: 2px solid #B80525;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  label {
+    position: absolute;
+    top: 0.5rem;
+    left: 20px;
+    font-size: 1rem;
+    color: #777;
+    pointer-events: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  input:focus + label,
+  input:not(:placeholder-shown) + label {
+    transform: translateY(-1.5rem);
+    font-size: 0.75rem;
+    color: #333;
+  }
+  .LoginBtn{
+    width: 300px;
+    height: 30px;
+    color: white;
+    background-color: #B80525;
+    border-radius: 10px;
+    border: 2px solid orange;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.Forgot, .Register{
+    color: #B80525;
+    font-size: 16px;
+}
+.Forgot{
+    margin-left: 170px;
+    margin-top: 20px;
+    margin-right: 0;
+}
